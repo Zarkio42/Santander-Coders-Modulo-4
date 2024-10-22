@@ -3,13 +3,16 @@ import { letrasEscolhidas, mostrarLetras } from "./mostrarLetras";
 
 const textoDica = document.querySelector(".texto-dica");
 export const divInputForca = document.querySelector(".letras-forca");
-export let palavraGlobal = "";
+export let palavraGlobal = {};
 
 async function puxarPalavra() {
   const palavras = await puxarPalavras();
-  const palavra = sorteiaPalavra(palavras);
-  palavraGlobal = palavra;
-  return palavra;
+  const palavraSorteada = sorteiaPalavra(palavras);
+  palavraGlobal = { 
+    palavra: palavraSorteada.palavra,
+    dica: palavraSorteada.dica
+  };
+  return palavraGlobal;
 }
 
 function sorteiaPalavra(palavra) {
