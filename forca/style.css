@@ -59,7 +59,7 @@ button:disabled {
   height: 80px;
   position: absolute;
   top: 40%;
-  left: 22%;
+  left: 16%;
   z-index: 99;
 }
 
@@ -68,7 +68,7 @@ button:disabled {
   height: 100px;
   position: absolute;
   top: 70%;
-  left: 21%;
+  left: 15%;
 }
 
 .container-header-forca .imagem-braco-direito img {
@@ -76,7 +76,7 @@ button:disabled {
   height: 60px;
   position: absolute;
   top: 72%;
-  left: 35%;
+  left: 25%;
 }
 
 .container-header-forca .imagem-braco-esquerdo img {
@@ -84,7 +84,7 @@ button:disabled {
   height: 60px;
   position: absolute;
   top: 72%;
-  left: 13%;
+  left: 10%;
 }
 
 .container-header-forca .imagem-perna-direita img {
@@ -92,7 +92,7 @@ button:disabled {
   height: 90px;
   position: absolute;
   top: 105%;
-  left: 33%;
+  left: 23%;
 }
 
 .container-header-forca .imagem-perna-esquerda img {
@@ -100,7 +100,7 @@ button:disabled {
   height: 90px;
   position: absolute;
   top: 105%;
-  left: 12%;
+  left: 9%;
 }
 
 .letras-forca {
@@ -186,6 +186,6 @@ button:disabled {
   border-radius: 8px;
 }
 
-.d-none {
+/* .d-none {
   display: none;
-}
+} */
