@@ -3,7 +3,7 @@ import { letrasEscolhidas, mostrarLetras } from "./mostrarLetras";
 
 const textoDica = document.querySelector(".texto-dica");
 export const divInputForca = document.querySelector(".letras-forca");
-export const palavraGlobal = {};
+export let palavraGlobal = {};
 
 async function puxarPalavra() {
   const palavras = await puxarPalavras();
